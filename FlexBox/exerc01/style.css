@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.icon-logo {
+  width: 200px;
+}
+.icon-red {
+  width: 40px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttonHeader {
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.buttonHeader:hover {
+  border-color: rgb(170, 24, 24);
+  color: red;
+  transition: 0.4s;
+}
